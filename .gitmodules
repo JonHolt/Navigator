@@ -1,0 +1,3 @@
+[submodule "client/psykick"]
+	path = client/psykick
+	url = git://github.com/MCluck90/psykick.git
