@@ -1,0 +1,29 @@
+{
+  "name": "Navigator",
+  "version": "0.0.0",
+  "description": "A game of using sling-shot maneuvers (swing-bys) to navigate solar systems",
+  "contributors": [
+	{
+		"name": "Jon Holt"
+	},
+	{
+		"name": "Mike Cluck",
+		"email": "mcluck90@gmail.com"
+	}
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JonHolt/Navigator"
+  },
+  "keywords": [
+    "game",
+    "space",
+    "physics",
+    "spaceship"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/JonHolt/Navigator/issues"
+  }
+}
