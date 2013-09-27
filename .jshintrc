@@ -15,5 +15,8 @@
     "smarttabs": true,
     "browser": true,
     "devel": true,
-    "node": true
+    "node": true,
+    "globals": {
+        "Psykick": true
+    }
 }
