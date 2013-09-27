@@ -7,6 +7,7 @@ var world = new Psykick.World({
     }),
     layer = world.createLayer(),
     spriteRenderSystem = new Psykick.Systems.Sprite(),
+    rotateShipSystem = new Game.Systems.RotateShip(),
     ship = world.createEntity();
 
 ship.addComponent(new Psykick.Components.Position({
@@ -22,6 +23,9 @@ ship.addComponent(new Psykick.Components.SpriteSheet({
 }));
 
 spriteRenderSystem.addEntity(ship);
+rotateShipSystem.addEntity(ship);
+
 layer.addEntity(ship);
 layer.addSystem(spriteRenderSystem);
+layer.addSystem(rotateShipSystem);
 world.pushLayer(layer);

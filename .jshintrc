@@ -17,6 +17,7 @@
     "devel": true,
     "node": true,
     "globals": {
-        "Psykick": true
+        "Psykick": true,
+        "Game": true
     }
 }

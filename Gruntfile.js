@@ -42,7 +42,7 @@ module.exports = function(grunt) {
             },
             psykick: {
                 files: {
-                    'client/js/psykick.min.js': PSYKICK_FILES
+                    'client/js/vendor/psykick.min.js': PSYKICK_FILES
                 }
             }
         }
