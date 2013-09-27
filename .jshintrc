@@ -1,0 +1,19 @@
+{
+    "curly": true,
+    "eqeqeq": true,
+    "immed": true,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "nonew": true,
+    "quotmark": true,
+    "undef": true,
+    "unused": true,
+    "strict": true,
+
+    "globalstrict": true,
+    "smarttabs": true,
+    "browser": true,
+    "devel": true,
+    "node": true
+}

@@ -3,13 +3,13 @@
   "version": "0.0.0",
   "description": "A game of using sling-shot maneuvers (swing-bys) to navigate solar systems",
   "contributors": [
-	{
-		"name": "Jon Holt"
-	},
-	{
-		"name": "Mike Cluck",
-		"email": "mcluck90@gmail.com"
-	}
+    {
+      "name": "Jon Holt"
+    },
+    {
+      "name": "Mike Cluck",
+      "email": "mcluck90@gmail.com"
+    }
   ],
   "repository": {
     "type": "git",
@@ -25,5 +25,12 @@
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/JonHolt/Navigator/issues"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-uglify": "~0.2.4"
   }
 }
